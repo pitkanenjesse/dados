@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SCRIPT PARA FICAR ESCUTANDO AS PORTAS PARA RODAR UM COMANDO
-
+#PREPARAADO POR JPITKANEN
 
 tcpdump -c1  -ni  any port 2222  -ttttv -x > 2222 &
 tcpdump -c1 -ni  any port 3333  -ttttv -x > 3333 &
